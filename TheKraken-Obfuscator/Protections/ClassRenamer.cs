@@ -8,7 +8,7 @@ namespace TheKraken_Obfuscator
         {
             foreach (var types in moduleDef.Types)
             {
-                types.Name = Program.RandomString(types.Name.Length + 20);
+                types.Name = Program.RandomString(types.Name.Length + 200);
             }
         }
     }
